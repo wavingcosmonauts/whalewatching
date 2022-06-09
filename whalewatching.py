@@ -119,6 +119,7 @@ async def main():
         boost = boosts[num - 1]
         addrs_weight[addr] += boost
 
+    total_weight = sum(elem for elem in addrs_weight.values())
     leaderboard = sorted(addrs_weight.items(), key=lambda e: e[1], reverse=True)
 
     data = []
@@ -129,7 +130,14 @@ async def main():
         if weight < prev_weight:
             rank = num
             prev_weight = weight
-        data.append({"Address": addr, "Weight": weight, "Rank": rank})
+        data.append(
+            {
+                "Address": addr,
+                "Weight": weight,
+                "WeightPerc": weight / total_weight * 100,
+                "Rank": rank,
+            }
+        )
 
     with open("whalewatching.json", "w") as f:
         json.dump(data, f)
