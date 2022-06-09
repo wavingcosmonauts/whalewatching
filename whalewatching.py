@@ -140,7 +140,7 @@ async def main():
         )
 
     with open("whalewatching.json", "w") as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=2)
 
 
 if __name__ == "__main__":
