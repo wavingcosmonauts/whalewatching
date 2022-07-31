@@ -19,6 +19,7 @@ COSMONAUT_MINTER = "stars18tj7yvh7qxv29wtr4angy4gqycrrj9e5j9susaes7vd4tqafzthq5h
 STARTY_MINTER = "stars1fqsqgjlurc7z2sntulfa0f9alk2ke5npyxrze9deq7lujas7m3ss7vq2fe"
 HONOR_STARTY_MINTER = "stars19dzracz083k9plv0gluvnu456frxcrxflaf37ugnj06tdr5xhu5sy3k988"
 HU_MINTER = "stars1lnrdwhf4xcx6w6tdpsghgv6uavem353gtgz77sdreyhts883wdjq52aewm"
+SK_MINTER = "stars1e3v7h9y3gajtzly37n0g88l9shjlsq2p0pywffty6x676eh6967sg643d2"
 
 
 async def get_holders(
@@ -59,12 +60,19 @@ async def gather_json(session: aiohttp.ClientSession, url: str):
 
 
 def get_boost(
-    holder, *, cosmonaut_counter, starty_counter, honor_starty_counter, hu_counter
+    holder,
+    *,
+    cosmonaut_counter,
+    starty_counter,
+    honor_starty_counter,
+    hu_counter,
+    sk_counter,
 ):
     """Probability weight boost for each cosmonaut holder."""
     n_startys = starty_counter.get(holder, 0)
     n_honor_startys = honor_starty_counter.get(holder, 0)
     n_planets = hu_counter.get(holder, 0)
+    n_baddies = sk_counter.get(holder, 0)
     n_cosmonauts = cosmonaut_counter[holder]
     # Distribute other NFTs equally over all cosmonauts the holder has
     # This may currently give a fraction of an NFT to each cosmonaut, which is not an
@@ -73,7 +81,8 @@ def get_boost(
     starty_boost = min(n_startys / 10 / n_cosmonauts, 1.0)
     honor_starty_boost = min(n_honor_startys / 10 / n_cosmonauts, 1.0)
     planet_boost = min(n_planets / 30 / n_cosmonauts, 1.0)
-    return 1.0 + starty_boost + honor_starty_boost + planet_boost
+    sk_boost = min(n_baddies / 10 / n_cosmonauts, 1.0)
+    return 1.0 + starty_boost + honor_starty_boost + planet_boost + sk_boost
 
 
 @contextlib.contextmanager
@@ -102,6 +111,10 @@ async def main():
         hu_planets = await get_holders(HU_MINTER, 5000)
     hu_counter = collections.Counter(hu_planets.values())
 
+    with print_progress("Getting all SK holders"):
+        sk_baddies = await get_holders(SK_MINTER, 2000)
+    sk_counter = collections.Counter(sk_baddies.values())
+
     boosts = [
         get_boost(
             holder,
@@ -109,6 +122,7 @@ async def main():
             starty_counter=starty_counter,
             honor_starty_counter=honor_starty_counter,
             hu_counter=hu_counter,
+            sk_counter=sk_counter,
         )
         for holder in cosmonauts.values()
     ]
