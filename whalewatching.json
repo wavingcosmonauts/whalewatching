@@ -120,76 +120,76 @@
     "Rank": 15
   },
   {
+    "Address": "stars1xuwl7x8htyl26t7pe3l0x6auj3j9jwd2k26qx5",
+    "Weight": 4.966666666666668,
+    "WeightPerc": 1.1196272918545238,
+    "Rank": 21
+  },
+  {
     "Address": "stars1zys4sw8e07e5cagg8pkueym720m6224d30njv6",
     "Weight": 4.466666666666667,
     "WeightPerc": 1.0069131349564173,
-    "Rank": 21
+    "Rank": 22
   },
   {
     "Address": "stars1sezunc9x6zwqldypxnn26r9mkqvvlr95fx9zsg",
     "Weight": 4.066666666666666,
     "WeightPerc": 0.916741809437932,
-    "Rank": 22
+    "Rank": 23
   },
   {
     "Address": "stars1f6d9m3kphpmha7nzrda6496amqt2cs3w8qf2l2",
     "Weight": 4.0,
     "WeightPerc": 0.9017132551848513,
-    "Rank": 23
+    "Rank": 24
   },
   {
     "Address": "stars1h9v9er46xw46r3mmptywt2r46snz403p0p6wpd",
     "Weight": 4.0,
     "WeightPerc": 0.9017132551848513,
-    "Rank": 23
+    "Rank": 24
   },
   {
     "Address": "stars17s6c8yrejmczjgxcnfl6x8vdrfw35wqeqgr6n8",
     "Weight": 4.0,
     "WeightPerc": 0.9017132551848513,
-    "Rank": 23
+    "Rank": 24
   },
   {
     "Address": "stars18w3zch43ed77pf3g2n0fk8af4dkm5km5ygj54r",
     "Weight": 4.0,
     "WeightPerc": 0.9017132551848513,
-    "Rank": 23
+    "Rank": 24
   },
   {
     "Address": "stars1j8s0667u7kducguygqsclg7dq8wz2vqjswa4wl",
     "Weight": 4.0,
     "WeightPerc": 0.9017132551848513,
-    "Rank": 23
+    "Rank": 24
   },
   {
     "Address": "stars1g4yswxsh6c9675fp4j2vldaj32ddhlmyrj7d7t",
     "Weight": 4.0,
     "WeightPerc": 0.9017132551848513,
-    "Rank": 23
+    "Rank": 24
   },
   {
     "Address": "stars12r382jmdnpjhv3d2xlepvmy0zqahpjqdsgzu5j",
     "Weight": 4.0,
     "WeightPerc": 0.9017132551848513,
-    "Rank": 23
+    "Rank": 24
   },
   {
     "Address": "stars18xq79u27g6tan4mdwf2j535jpryz6pdvlmag2c",
     "Weight": 4.0,
     "WeightPerc": 0.9017132551848513,
-    "Rank": 23
+    "Rank": 24
   },
   {
     "Address": "stars1krv9mfpdy8l7k33ec0qwjuwf7a35g52az92wyu",
     "Weight": 3.9666666666666672,
     "WeightPerc": 0.894198978058311,
-    "Rank": 31
-  },
-  {
-    "Address": "stars1xuwl7x8htyl26t7pe3l0x6auj3j9jwd2k26qx5",
-    "Weight": 3.9666666666666672,
-    "WeightPerc": 0.894198978058311,
-    "Rank": 31
+    "Rank": 32
   },
   {
     "Address": "stars193tk9u56gu6qyeurhwxugxgwxh3vtcnelh4f9x",
@@ -240,12 +240,6 @@
     "Rank": 37
   },
   {
-    "Address": "stars137g5xyghxwvg5fsycxy22g7k76352c4q46kj3k",
-    "Weight": 3.0,
-    "WeightPerc": 0.6762849413886385,
-    "Rank": 37
-  },
-  {
     "Address": "stars1seult54xlje5cmfgerxj4zaqt52ywl4wj6s8vy",
     "Weight": 3.0,
     "WeightPerc": 0.6762849413886385,
@@ -279,181 +273,187 @@
     "Address": "stars17uld3yhlryf7v8zzl0v6eekaf87zvngugjkamn",
     "Weight": 2.7,
     "WeightPerc": 0.6086564472497746,
-    "Rank": 47
+    "Rank": 46
   },
   {
     "Address": "stars1e5mhzsmezfw9p7wwagsdq9a3fhdsmgxg6q2sje",
     "Weight": 2.7,
     "WeightPerc": 0.6086564472497746,
-    "Rank": 47
+    "Rank": 46
   },
   {
     "Address": "stars1kt3l4uvkpmr2qa09xyktsstkgaqa8z4pmwq0cz",
     "Weight": 2.6666666666666665,
     "WeightPerc": 0.6011421701232341,
-    "Rank": 49
+    "Rank": 48
   },
   {
     "Address": "stars1yfcnagt5m2ampr2gjewl7y27tksmf84p84w2hz",
     "Weight": 2.566666666666667,
     "WeightPerc": 0.578599338743613,
-    "Rank": 50
+    "Rank": 49
   },
   {
     "Address": "stars1rqx7h77w3gjvwxekg6uecnfsxjdz98hpu7uvj9",
     "Weight": 2.5,
     "WeightPerc": 0.563570784490532,
-    "Rank": 51
+    "Rank": 50
   },
   {
     "Address": "stars1jxeu2ayq3t2eyy59wryzdammgty5chvh8avnaw",
     "Weight": 2.5,
     "WeightPerc": 0.563570784490532,
-    "Rank": 51
+    "Rank": 50
   },
   {
     "Address": "stars154fvcpg0qesfnegljtpvjamr5azw548mty3tg7",
     "Weight": 2.2666666666666666,
     "WeightPerc": 0.5109708446047491,
-    "Rank": 53
+    "Rank": 52
   },
   {
     "Address": "stars1sah6yh3jmx8z24jgnytsurqryfrx5sqwuvqd9r",
     "Weight": 2.2333333333333334,
     "WeightPerc": 0.5034565674782087,
-    "Rank": 54
+    "Rank": 53
   },
   {
     "Address": "stars17xeehqdkeg3h63xjy4k9a7gsx4n9zv27qr60y5",
     "Weight": 2.2,
     "WeightPerc": 0.4959422903516682,
-    "Rank": 55
+    "Rank": 54
   },
   {
     "Address": "stars1zvgm9cqjevf0mqwe9lx3cnjmecxz698j5qaqm0",
     "Weight": 2.1666666666666665,
     "WeightPerc": 0.48842801322512774,
-    "Rank": 56
+    "Rank": 55
   },
   {
     "Address": "stars17j9rqfx0de7uzdv40z3eg5d9d6yf2se9js2sjp",
     "Weight": 2.1333333333333333,
     "WeightPerc": 0.4809137360985874,
-    "Rank": 57
+    "Rank": 56
   },
   {
     "Address": "stars1f7f3cdemg6kt68m4wznf3syh467gfuwx0lc69w",
     "Weight": 2.1333333333333333,
     "WeightPerc": 0.4809137360985874,
-    "Rank": 57
+    "Rank": 56
   },
   {
     "Address": "stars1yucffj4d7ahgnc4trvjj32sgsw02d86uul0m29",
     "Weight": 2.1,
     "WeightPerc": 0.47339945897204694,
-    "Rank": 59
+    "Rank": 58
   },
   {
     "Address": "stars1xv7pdcex49py0hxxaapgt4zpa2qvfpkqpjurk8",
     "Weight": 2.1,
     "WeightPerc": 0.47339945897204694,
-    "Rank": 59
+    "Rank": 58
   },
   {
     "Address": "stars12wdcv2lm6uhyh5f6ytjvh2nlkukrmkdkq20qpp",
     "Weight": 2.1,
     "WeightPerc": 0.47339945897204694,
-    "Rank": 59
+    "Rank": 58
   },
   {
     "Address": "stars18pn3943hm4u4tdjz7qmamjhnjqkpktzhqnw8fa",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars1l58c5d0ndmfgl7nlsw2k8zhvdl4lwp6cf4cd5t",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars15av20f2dg63r3qll44qn97ynp7q8t2la4g5na0",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars10jm8fvdyqlj78w0j5nawc76wsn4pqmdxwjyelu",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars1mjlrh7dldj8pn05g25hw3jwhj5zpf3atkkh29u",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars1elcpqhr4t53fkg4ae6r7g8c84f54rgd5h9kt0x",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars1r7z7ezqt6ns9memtteyrjpcw34q5qtudh428qe",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars130w3evknw7ccufstxnzu4aseyj2fncsaa57raq",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars145h7pgmfuc8vp7y4j5lvvxeuav382ecpejfua9",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
+  },
+  {
+    "Address": "stars137g5xyghxwvg5fsycxy22g7k76352c4q46kj3k",
+    "Weight": 2.0,
+    "WeightPerc": 0.4508566275924257,
+    "Rank": 61
   },
   {
     "Address": "stars13mlm5efzdmgsjsp93ek064s83n4035hcutkwfp",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars1nyky0l6nueuc9pfpwh048mrertsw57yyanq7nv",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars1r9mekllcz0fqdt0w2lstckw9exxtvzpqr5urg5",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars14n53z9jhxn3jx4m5drfc3y8ht9vlalfn92sxea",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars1fv5p7vlnpfucfzfuhlmxmms8ajwm5yefewzsyj",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars149fckfcm9k36rkrk2dv4cxtmadklduw777y56m",
     "Weight": 2.0,
     "WeightPerc": 0.4508566275924257,
-    "Rank": 62
+    "Rank": 61
   },
   {
     "Address": "stars1pw4j58t52qe265q3j99h3fpgz5zkxej6qcydev",
